@@ -32,16 +32,16 @@ export const PlaygroundHeader = ({
         height: height + "px",
       }}
     >
-      <div className="flex items-center gap-3 basis-2/3">
+      {/* <div className="flex items-center gap-3 basis-2/3">
         <div className="flex lg:basis-1/2">
           <a href="">{logo ?? <LKLogo />}</a>
         </div>
         <div className="lg:basis-1/2 lg:text-center text-xs lg:text-base lg:font-semibold text-white">
           {title}
         </div>
-      </div>
+      </div> */}
       <div className="flex basis-1/3 justify-end items-center gap-2">
-        {githubLink && (
+        {/* {githubLink && (
           <a
             href={githubLink}
             target="_blank"
@@ -49,7 +49,7 @@ export const PlaygroundHeader = ({
           >
             <GithubSVG />
           </a>
-        )}
+        )} */}
         {config.settings.editable && <SettingsDropdown />}
         <Button
           accentColor={
